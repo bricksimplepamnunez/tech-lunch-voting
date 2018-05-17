@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
+import { FormsModule } from '@angular/forms'
 
 @Component({
   selector: 'app-voting-form',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./voting-form.component.css']
 })
 export class VotingFormComponent implements OnInit {
+
+
 
   constructor() { }
 
